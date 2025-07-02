@@ -17,7 +17,25 @@
         h1 {
             text-align: center;
             color: #333;
+            margin-bottom: 20px;
+        }
+        .header-link {
+            display: flex;
+            justify-content: center;
             margin-bottom: 40px;
+        }
+        .header-link a {
+            background: #4299e1;
+            color: white;
+            padding: 10px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .header-link a:hover {
+            background: #2b6cb0;
         }
         .game-grid {
             display: grid;
@@ -66,6 +84,9 @@
 </head>
 <body>
     <h1>Borgue Board Games Collection</h1>
+    <div class="header-link">
+        <a href="https://forms.gle/ySK2xJQCNeZ6nV3ZA" target="_blank">Request a game</a>
+    </div>
     <div class="game-grid">
 
         <div class="game-card">
